@@ -4,13 +4,13 @@
     {
         public static class Identity
         {
-            private static readonly string Base = "identity";
+            private const string Base = "identity";
 
-            public static readonly string Register = Base + "/register";
+            public const string Register = Base + "/register";
 
-            public static readonly string Login = Base + "/login";
+            public const string Login = Base + "/login";
 
-            public static readonly string Refresh = Base + "/refresh";
+            public const string Refresh = Base + "/refresh";
         }
     }
 }
