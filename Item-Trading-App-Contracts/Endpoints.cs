@@ -46,5 +46,14 @@
 
             public const string Cancel = Base + "cancel";
         }
+
+        public static class Wallet
+        {
+            private const string Base = "wallet/";
+
+            public const string Get = Base + "get";
+
+            public const string Update = Base + "update";
+        }
     }
 }
