@@ -25,6 +25,8 @@
 
             public const string Add = Base + "add";
 
+            public const string Remove = Base + "remove";
+
             public const string Update = Base + "update";
 
             public const string Delete = Base + "delete";
@@ -34,7 +36,7 @@
         {
             private const string Base = "trade/";
 
-            public const string Create = Base + "create";
+            public const string Offer = Base + "offer";
 
             public const string Accept = Base + "accept";
 
@@ -42,7 +44,7 @@
 
             public const string Get = Base + "get";
 
-            public const string GetAll = Base + "getall";
+            public const string List = Base + "list";
 
             public const string Cancel = Base + "cancel";
         }

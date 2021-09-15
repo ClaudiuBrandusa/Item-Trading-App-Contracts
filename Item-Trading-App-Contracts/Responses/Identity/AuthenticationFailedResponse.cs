@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using Item_Trading_App_Contracts.Responses.Base;
 
 namespace Item_Trading_App_Contracts.Responses.Identity
 {
-    public class AuthenticationFailedResponse
+    public class AuthenticationFailedResponse : FailedResponse
     {
-        public IEnumerable<string> Errors { get; set; }
     }
 }
