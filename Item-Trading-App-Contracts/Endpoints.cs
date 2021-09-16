@@ -25,7 +25,7 @@
 
             public const string Add = Base + "add";
 
-            public const string Remove = Base + "remove";
+            public const string Drop = Base + "drop";
 
             public const string Update = Base + "update";
 
