@@ -13,6 +13,19 @@
             public const string Refresh = Base + "refresh";
         }
 
+        public static class Inventory
+        {
+            private const string Base = "inventory/";
+
+            public const string Add = Base + "add";
+
+            public const string Drop = Base + "drop";
+
+            public const string Get = Base + "get";
+
+            public const string List = Base + "list";
+        }
+
         public static class Item
         {
             private const string Base = "item/";
@@ -22,10 +35,6 @@
             public const string Get = Base + "get";
 
             public const string List = Base + "list";
-
-            public const string Add = Base + "add";
-
-            public const string Drop = Base + "drop";
 
             public const string Update = Base + "update";
 

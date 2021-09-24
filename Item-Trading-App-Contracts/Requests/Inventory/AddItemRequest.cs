@@ -1,4 +1,4 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Item
+﻿namespace Item_Trading_App_Contracts.Requests.Inventory
 {
     // used when we want to add an amount of an item to our inventory
     public class AddItemRequest
