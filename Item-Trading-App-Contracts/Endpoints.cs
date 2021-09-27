@@ -53,7 +53,11 @@
 
             public const string Get = Base + "get";
 
-            public const string List = Base + "list";
+            public const string ListSent = Base + "list_sent";
+
+            public const string ListReceived = Base + "list_received";
+            
+            public const string History = Base + "history";
 
             public const string Cancel = Base + "cancel";
         }
