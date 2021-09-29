@@ -3,5 +3,9 @@
     public class CancelTradeOfferSuccessResponse
     {
         public string TradeOfferId { get; set; }
+
+        public string ReceiverId { get; set; }
+
+        public string ReceiverName { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace Item_Trading_App_Contracts.Responses.Trade
     // used when we accept the received trade offer
     public class AcceptTradeOfferSuccessResponse
     {
-        public string Id { get; set; }
+        public string TradeOfferId { get; set; }
 
         public string SenderId { get; set; }
 
