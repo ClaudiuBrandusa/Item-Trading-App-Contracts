@@ -2,7 +2,7 @@
 
 namespace Item_Trading_App_Contracts.Responses.Trade
 {
-    class GetSentTradeOfferFailedResponse : FailedResponse
+    public class GetSentTradeOfferFailedResponse : FailedResponse
     {
         public string TradeOfferId { get; set; }
 
