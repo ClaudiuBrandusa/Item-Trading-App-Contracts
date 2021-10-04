@@ -1,6 +1,6 @@
 ﻿namespace Item_Trading_App_Contracts.Responses.Identity
 {
-    public class UsernameResponse
+    public class UsernameSuccessResponse
     {
         public string UserId { get; set; }
 
