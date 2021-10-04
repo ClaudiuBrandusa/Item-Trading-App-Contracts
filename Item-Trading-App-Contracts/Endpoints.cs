@@ -11,6 +11,10 @@
             public const string Login = Base + "login";
 
             public const string Refresh = Base + "refresh";
+
+            public const string GetUsername = Base + "get_username";
+
+            public const string ListUsers = Base + "list_users";
         }
 
         public static class Inventory
