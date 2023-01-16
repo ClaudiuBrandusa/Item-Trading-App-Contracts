@@ -28,6 +28,8 @@
             public const string Get = Base + "get";
 
             public const string List = Base + "list";
+
+            public const string GetLockedAmount = Base + "get_locked_amount";
         }
 
         public static class Item
