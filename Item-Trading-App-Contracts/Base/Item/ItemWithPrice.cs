@@ -1,7 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Base.Item
+﻿namespace Item_Trading_App_Contracts.Base.Item;
+
+public record ItemWithPrice : Item
 {
-    public class ItemWithPrice : Item
-    {
-        public int Price { get; set; }
-    }
+    public int Price { get; set; }
 }

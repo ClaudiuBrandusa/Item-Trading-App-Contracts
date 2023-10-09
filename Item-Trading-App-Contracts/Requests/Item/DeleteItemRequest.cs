@@ -1,7 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Item
+﻿namespace Item_Trading_App_Contracts.Requests.Item;
+
+public record DeleteItemRequest
 {
-    public class DeleteItemRequest
-    {
-        public string ItemId { get; set; }
-    }
+    public string ItemId { get; set; }
 }

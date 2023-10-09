@@ -1,7 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Responses.Wallet
+﻿namespace Item_Trading_App_Contracts.Responses.Wallet;
+
+public record UpdateWalletSuccessResponse
 {
-    public class UpdateWalletSuccessResponse
-    {
-        public int Amount { get; set; }
-    }
+    public int Amount { get; set; }
 }

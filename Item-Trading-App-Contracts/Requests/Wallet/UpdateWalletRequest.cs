@@ -1,7 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Wallet
+﻿namespace Item_Trading_App_Contracts.Requests.Wallet;
+
+public record UpdateWalletRequest
 {
-    public class UpdateWalletRequest
-    {
-        public int Quantity { get; set; }
-    }
+    public int Quantity { get; set; }
 }

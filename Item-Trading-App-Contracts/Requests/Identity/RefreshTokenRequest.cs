@@ -1,9 +1,8 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Identity
-{
-    public class RefreshTokenRequest
-    {
-        public string Token { get; set; }
+﻿namespace Item_Trading_App_Contracts.Requests.Identity;
 
-        public string RefreshToken { get; set; }
-    }
+public record RefreshTokenRequest
+{
+    public string Token { get; set; }
+
+    public string RefreshToken { get; set; }
 }

@@ -1,11 +1,10 @@
-﻿namespace Item_Trading_App_Contracts.Responses.Inventory
+﻿namespace Item_Trading_App_Contracts.Responses.Inventory;
+
+public record AddItemSuccessResponse
 {
-    public class AddItemSuccessResponse
-    {
-        public string ItemId { get; set; }
+    public string ItemId { get; set; }
 
-        public string ItemName { get; set; }
+    public string ItemName { get; set; }
 
-        public int Quantity { get; set; }
-    }
+    public int Quantity { get; set; }
 }

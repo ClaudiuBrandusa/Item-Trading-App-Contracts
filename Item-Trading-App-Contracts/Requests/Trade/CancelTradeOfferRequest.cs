@@ -1,7 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Trade
+﻿namespace Item_Trading_App_Contracts.Requests.Trade;
+
+public record CancelTradeOfferRequest
 {
-    public class CancelTradeOfferRequest
-    {
-        public string TradeId { get; set; }
-    }
+    public string TradeId { get; set; }
 }

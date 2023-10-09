@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-namespace Item_Trading_App_Contracts.Base.TradeOffer
+namespace Item_Trading_App_Contracts.Base.TradeOffer;
+
+public record TradeOffer
 {
-    public class TradeOffer
-    {
-        public string TradeId { get; set; }
+    public string TradeId { get; set; }
 
-        public DateTime SentDate { get; set; }
+    public DateTime SentDate { get; set; }
 
-        public IEnumerable<ItemWithPrice> Items { get; set; }
-    }
+    public IEnumerable<ItemWithPrice> Items { get; set; }
 }

@@ -1,11 +1,10 @@
 ﻿using Item_Trading_App_Contracts.Responses.Base;
 
-namespace Item_Trading_App_Contracts.Responses.Inventory
-{
-    public class DropItemFailedResponse : FailedResponse
-    {
-        public string ItemId { get; set; }
+namespace Item_Trading_App_Contracts.Responses.Inventory;
 
-        public string ItemName { get; set; }
-    }
+public record DropItemFailedResponse : FailedResponse
+{
+    public string ItemId { get; set; }
+
+    public string ItemName { get; set; }
 }

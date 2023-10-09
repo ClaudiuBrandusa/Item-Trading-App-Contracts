@@ -1,6 +1,5 @@
-﻿namespace Item_Trading_App_Contracts.Responses.Trade
+﻿namespace Item_Trading_App_Contracts.Responses.Trade;
+
+public record GetReceivedRespondedTradeOfferFailedResponse : GetReceivedTradeOfferFailedResponse
 {
-    public class GetReceivedRespondedTradeOfferFailedResponse : GetReceivedTradeOfferFailedResponse
-    {
-    }
 }
