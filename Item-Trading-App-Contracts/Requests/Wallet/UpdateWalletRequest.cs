@@ -1,4 +1,6 @@
-﻿namespace Item_Trading_App_Contracts.Requests.Wallet;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Item_Trading_App_Contracts.Requests.Wallet;
 
 public record UpdateWalletRequest
 {
