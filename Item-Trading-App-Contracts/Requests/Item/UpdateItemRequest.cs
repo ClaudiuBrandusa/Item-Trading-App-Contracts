@@ -8,6 +8,7 @@ public record UpdateItemRequest
     [Required]
     public string ItemId { get; set; }
 
+    [Required]
     public string ItemName { get; set; }
 
     public string ItemDescription { get; set; }
