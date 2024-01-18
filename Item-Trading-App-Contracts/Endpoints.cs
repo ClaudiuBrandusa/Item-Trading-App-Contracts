@@ -42,6 +42,8 @@
 
             public const string List = Base + "list";
 
+            public const string ListTradesUsingTheItem = Base + "list_trades_using_the_item";
+
             public const string Update = Base + "update";
 
             public const string Delete = Base + "delete";
