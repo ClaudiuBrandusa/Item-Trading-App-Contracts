@@ -2,7 +2,7 @@
 
 public record CancelTradeOfferSuccessResponse
 {
-    public string TradeOfferId { get; set; }
+    public string TradeId { get; set; }
 
     public string ReceiverId { get; set; }
 

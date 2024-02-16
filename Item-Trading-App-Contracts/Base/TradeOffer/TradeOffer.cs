@@ -8,7 +8,7 @@ public record TradeOffer
 {
     public string TradeId { get; set; }
 
-    public DateTime SentDate { get; set; }
+    public DateTime CreationDate { get; set; }
 
     public IEnumerable<ItemWithPrice> Items { get; set; }
 }
