@@ -59,25 +59,11 @@
 
             public const string Reject = Base + "reject";
 
-            private const string Get = Base + "get_";
+            public const string Directions = Base + "directions";
 
-            public const string GetSent = Get + "sent";
+            public const string Get = Base + "get";
 
-            public const string GetReceived = Get + "received";
-
-            public const string GetSentResponded = GetSent + "_responded";
-
-            public const string GetReceivedResponded = GetReceived + "_responded";
-
-            private const string List = Base + "list_";
-
-            public const string ListSent = List + "sent";
-
-            public const string ListReceived = List + "received";
-            
-            public const string ListSentResponded = ListSent + "_responded";
-
-            public const string ListReceivedResponded = ListReceived + "_responded";
+            public const string List = Base + "list";
 
             public const string Cancel = Base + "cancel";
         }
