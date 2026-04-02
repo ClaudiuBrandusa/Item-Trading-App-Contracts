@@ -2,7 +2,8 @@
 
 namespace Item_Trading_App_Contracts.Notifications;
 
-public record Notification<T> where T : NotificationContent
+public record Notification<T> : IClientNotification
+    where T : NotificationContent
 {
     public string Type { get; set; }
 
